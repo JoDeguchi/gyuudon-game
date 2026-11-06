@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\Core">
+      <UniqueIdentifier>{65129122-e3d6-4337-b47d-602fe998a808}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Scene">
+      <UniqueIdentifier>{8c24018c-702a-4f78-944c-8f19195e0b64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Input">
+      <UniqueIdentifier>{46fd9cda-77ca-4ae0-96ed-d597a6d680ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Object">
+      <UniqueIdentifier>{a651f6c0-4507-4a41-bc8a-ee0a1b88ce91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Scene\Title">
+      <UniqueIdentifier>{95ac7953-2793-420f-b0fa-1cb658cd13a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Scene\Game">
+      <UniqueIdentifier>{1ab59edb-e99e-469a-adec-f8159c96a9ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Scene\Ending">
+      <UniqueIdentifier>{2aa1d552-2e62-49b3-a9ab-a5e982927d2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Base">
+      <UniqueIdentifier>{f7999e25-c9db-4275-bb5b-bfa583ace17f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Object\Beef">
+      <UniqueIdentifier>{02dd6c39-8d46-4e73-8fbd-c729c689531e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Object\Onion">
+      <UniqueIdentifier>{3aa0f96d-1ef0-4631-be24-4539567de639}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Object\Steam">
+      <UniqueIdentifier>{e789631a-54a6-43fb-a8c5-461fb4ea3b5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Object\Radle">
+      <UniqueIdentifier>{42d36c89-9541-4565-9833-ca16569491e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Object\Rice">
+      <UniqueIdentifier>{7bb9d945-2e6b-4ff2-9031-ab384b664f10}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>ソース ファイル\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="WinMain.cpp">
+      <Filter>ソース ファイル\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleState.cpp">
+      <Filter>ソース ファイル\Scene\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="StartGameState.cpp">
+      <Filter>ソース ファイル\Scene\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="EndingState.cpp">
+      <Filter>ソース ファイル\Scene\Ending</Filter>
+    </ClCompile>
+    <ClCompile Include="Beef.cpp">
+      <Filter>ソース ファイル\Object\Beef</Filter>
+    </ClCompile>
+    <ClCompile Include="Onion.cpp">
+      <Filter>ソース ファイル\Object\Onion</Filter>
+    </ClCompile>
+    <ClCompile Include="Steam.cpp">
+      <Filter>ソース ファイル\Object\Steam</Filter>
+    </ClCompile>
+    <ClCompile Include="Radle.cpp">
+      <Filter>ソース ファイル\Object\Radle</Filter>
+    </ClCompile>
+    <ClCompile Include="Rice.cpp">
+      <Filter>ソース ファイル\Object\Rice</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameManager.h">
+      <Filter>ソース ファイル\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState.h">
+      <Filter>ソース ファイル\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyReader.h">
+      <Filter>ソース ファイル\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseReader.h">
+      <Filter>ソース ファイル\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleState.h">
+      <Filter>ソース ファイル\Scene\Title</Filter>
+    </ClInclude>
+    <ClInclude Include="StartGameState.h">
+      <Filter>ソース ファイル\Scene\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="EndingState.h">
+      <Filter>ソース ファイル\Scene\Ending</Filter>
+    </ClInclude>
+    <ClInclude Include="Base.h">
+      <Filter>ソース ファイル\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Beef.h">
+      <Filter>ソース ファイル\Object\Beef</Filter>
+    </ClInclude>
+    <ClInclude Include="Onion.h">
+      <Filter>ソース ファイル\Object\Onion</Filter>
+    </ClInclude>
+    <ClInclude Include="Graph.h">
+      <Filter>ソース ファイル\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam.h">
+      <Filter>ソース ファイル\Object\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Radle.h">
+      <Filter>ソース ファイル\Object\Radle</Filter>
+    </ClInclude>
+    <ClInclude Include="Hit.h">
+      <Filter>ソース ファイル\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Rice.h">
+      <Filter>ソース ファイル\Object\Rice</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>
